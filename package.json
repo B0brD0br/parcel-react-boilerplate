@@ -42,7 +42,6 @@
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
-    "@types/lodash": "^4.14.175",
     "axios": "^0.23.0",
     "normalize.css": "^8.0.1",
     "parcel": "^2.0.0",

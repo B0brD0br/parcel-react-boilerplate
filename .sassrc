@@ -1,0 +1,4 @@
+{
+  data: '@import "./src/scss/_breakpoints";',
+  "includePaths": ["node_modules"],
+}

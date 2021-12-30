@@ -1,0 +1,102 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/jsx-runtime"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "array-bracket-newline": [
+            "warn",
+            {
+                "multiline": true,
+                "minItems": 3
+            }
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "array-element-newline": [
+            "warn",
+            {
+                "multiline": true,
+                "minItems": 3
+            }
+        ],
+        "curly": [
+            "error",
+            "multi-line"
+        ],
+        "default-case": "error",
+        "default-case-last": "error",
+        "default-param-last": [
+            "error"
+        ],
+        "dot-notation": [
+            "error",
+            {
+                "allowKeywords": false
+            }
+        ],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "max-classes-per-file": "error",
+        "no-alert": "error",
+        "no-console": "error",
+        "no-else-return": "error",
+        "no-empty-function": "warn",
+        "no-eq-null": "error",
+        "no-extra-parens": [
+            "error",
+            "all",
+            {
+                "nestedBinaryExpressions": false,
+                "ignoreJSX": "multi-line"
+            }
+        ],
+        "no-multi-spaces": "error",
+        "no-param-reassign": "error",
+        "no-template-curly-in-string": "warn",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "vars-on-top": "error",
+        "yoda": "error"
+    }
+}

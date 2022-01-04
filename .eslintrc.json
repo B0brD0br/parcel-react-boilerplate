@@ -19,7 +19,21 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "jest-dom",
+        "testing-library"
+    ],
+    "overrides": [
+        {
+            "files": [
+                "**/__tests__/**/*.[jt]s?(x)",
+                "**/?(*.)+(spec|test).[jt]s?(x)"
+            ],
+            "extends": [
+                "plugin:jest-dom/recommended",
+                "plugin:testing-library/react"
+            ]
+        }
     ],
     "rules": {
         "array-bracket-newline": [

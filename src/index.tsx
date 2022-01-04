@@ -1,17 +1,13 @@
 import { FC } from 'react';
 import ReactDOM from 'react-dom';
 
+import Main from './pages/Main';
+
 import 'normalize.css';
 import 'sanitize.css';
 import './scss/style.scss';
 
-const App: FC = () => (
-  <div>
-    Build website using Parcel V2 & React
-  </div>
-);
+const App: FC = () => <Main />;
 
 const app = document.getElementById('app');
-ReactDOM.render((
-  <App />
-), app);
+ReactDOM.render(<App />, app);

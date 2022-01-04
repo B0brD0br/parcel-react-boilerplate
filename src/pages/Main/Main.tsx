@@ -1,11 +1,9 @@
 import { FC } from 'react';
 
-const Main: FC = () => {
-  return (
-    <main>
+const Main: FC = () => (
+  <main>
       Build website using Parcel V2 & React
-    </main>
-  );
-};
+  </main>
+);
 
 export default Main;

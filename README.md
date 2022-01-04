@@ -20,6 +20,7 @@ A boilerplate for project setup using Parcel V2 + React + SASS + Jest + RTL + Ty
 ## Installation
 * Git clone this repo
 * From `<RootFoolder>` run `yarn install`
+* If ESLint is throwing errors, should restart VSCode
 
 ## Commands
 * `yarn start` - run a development server and watch changes

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import ReactDOM from 'react-dom';
 
-import Main from './pages/Main';
+import Main from './pages/Main/Main';
 
 import 'normalize.css';
 import 'sanitize.css';

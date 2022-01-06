@@ -23,7 +23,7 @@ A boilerplate for project setup using Parcel V2 + React + SASS + Jest + RTL + Ty
 
 * `yarn start` - run a development server and watch changes
 * `yarn build` - build project
-* `yarn test` - run tests and watch all changes
+* `yarn test` - run tests and watch uncommited changes
 
 ## Opinionated approach
 

@@ -34,6 +34,7 @@
   },
   "include": [
     "src/**/*",
+    "jest.setup.ts"
   ],
   "exclude": [
     "node_modules",
